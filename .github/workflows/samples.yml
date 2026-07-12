@@ -1,0 +1,16 @@
+name: samples
+on: [push, pull_request]
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Run the illustrative samples
+        run: |
+          python samples/weight_reconstruction.py
+          python samples/proving_parser.py
+          python samples/verification_gate.py
+          python samples/idempotent_writer.py
