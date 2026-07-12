@@ -18,7 +18,7 @@ through the real system in an interview.
 
 ## The problem
 
-A family logistics company billed every flight by hand: reading shipment
+A logistics company billed every flight by hand: reading shipment
 manifests and vendor invoices out of email, transcribing them into a sprawling
 Google Sheet with live formulas, and keying customer invoices and vendor bills
 into QuickBooks one at a time. Hours per day, and a single fat-fingered weight
@@ -119,8 +119,8 @@ migrates between machines by re-running one script.
 
 ## How it was built
 
-Designed and built by **Lucas Utreras** (Computer Engineering) for a family
-air-cargo business. I used an AI assistant as a pair-programmer to accelerate
+Designed and built by **Lucas Utreras Acevedo** (Computer Engineering) for an
+air-cargo logistics company. I used an AI assistant as a pair-programmer to accelerate
 implementation; the architecture, the trade-offs, and every design decision are
 mine, and I can defend each one. I believe in being transparent about how modern
 software gets built.
